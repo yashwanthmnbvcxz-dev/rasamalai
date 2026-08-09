@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Birthday Rasamalai 🍮❤️</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         NIGHT SKY
+    ========================== -->
+
+    <div id="sky">
+        <div id="stars"></div>
+        <div id="shootingStars"></div>
+
+        <div class="moon">
+            <div class="moon-crater crater1"></div>
+            <div class="moon-crater crater2"></div>
+            <div class="moon-crater crater3"></div>
+        </div>
+
+        <div class="cloud cloud1"></div>
+        <div class="cloud cloud2"></div>
+    </div>
+
+
+    <!-- Floating hearts -->
+    <div id="hearts"></div>
+
+
+    <!-- =========================
+         MUSIC
+    ========================== -->
+
+    <audio id="bgMusic" loop preload="auto">
+        <source src="assets/music.mp3" type="audio/mpeg">
+    </audio>
+
+
+    <!-- =========================
+         SCREEN 1
+    ========================== -->
+
+    <section class="screen active" id="screen1">
+
+        <div class="opening">
+
+            <div class="big-heart">❤️</div>
+
+            <h1 id="openingText">
+                Establishing Connection...
+            </h1>
+
+            <div class="progress">
+                <div id="progressBar"></div>
+            </div>
+
+            <p>
+                Preparing something special...
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         SCREEN 2
+    ========================== -->
+
+    <section class="screen" id="screen2">
+
+        <div class="center-content">
+
+            <video
+                class="teddy"
+                autoplay
+                muted
+                loop
+                playsinline
+            >
+                <source
+                    src="assets/teddy01.mp4"
+                    type="video/mp4"
+                >
+            </video>
+
+            <h1>
+                Searching for Rasamalai... 🍮
+            </h1>
+
+            <div class="dots">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <p>
+                Connection found ❤️
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         SCREEN 3
+    ========================== -->
+
+    <section class="screen" id="screen3">
+
+        <div class="card">
+
+            <video
+                class="teddy teddy-small"
+                autoplay
+                muted
+                loop
+                playsinline
+            >
+                <source
+                    src="assets/teddy02.mp4"
+                    type="video/mp4"
+                >
+            </video>
+
+            <p class="hello">
+                Hey Rasamalai 🍮❤️
+            </p>
+
+            <h1>
+                Are you ready to see
+                <br>
+                your birthday surprise?
+            </h1>
+
+            <p class="subtext">
+                I made something special just for you...
+            </p>
+
+            <div class="buttons">
+
+                <button id="yesBtn">
+                    YES ❤️
+                </button>
+
+                <button id="noBtn">
+                    NO 🙈
+                </button>
+
+            </div>
+
+            <div id="noArea">
+
+                <video
+                    id="noTeddy"
+                    class="teddy teddy-no"
+                    muted
+                    playsinline
+                >
+                    <source
+                        src="assets/teddy04.mp4"
+                        type="video/mp4"
+                    >
+                </video>
+
+                <p id="noText"></p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         SCREEN 4
+    ========================== -->
+
+    <section class="screen" id="screen4">
+
+        <div class="center-content">
+
+            <video
+                class="teddy"
+                autoplay
+                muted
+                loop
+                playsinline
+            >
+                <source
+                    src="assets/teddy03.mp4"
+                    type="video/mp4"
+                >
+            </video>
+
+            <h1>
+                Then let's begin... ❤️
+            </h1>
+
+            <p>
+                Your little birthday world is opening...
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         SCREEN 5
+    ========================== -->
+
+    <section class="screen" id="screen5">
+
+        <div class="birthday">
+
+            <p class="small-title">
+                TODAY IS ALL ABOUT
+            </p>
+
+            <h1>
+                RASAMALAI
+            </h1>
+
+            <div class="cake-icon">
+                🍮
+            </div>
+
+            <h2>
+                Happy Birthday ❤️
+            </h2>
+
+            <p>
+                The sweetest person deserves
+                the sweetest surprise.
+            </p>
+
+            <button
+                class="main-btn"
+                id="startBtn"
+            >
+                Start Our Story ✨
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         SCREEN 6
+    ========================== -->
+
+    <section class="screen photo-screen" id="screen6">
+
+        <div class="photo-content">
+
+            <p class="small-title">
+                IT ALL STARTED SOMEWHERE
+            </p>
+
+            <h1>
+                Our First Memory ❤️
+            </h1>
+
+            <div class="single-photo">
+                <img
+                    src="assets/photo01.jpg"
+                    alt="Our memory"
+                >
+            </div>
+
+            <p>
+                One little moment became
+                the beginning of something special.
+            </p>
+
+            <button
+                class="main-btn"
+                id="next6"
+            >
+                Next Memory →
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         SCREEN 7
+    ========================== -->
+
+    <section class="screen photo-screen" id="screen7">
+
+        <div class="photo-content">
+
+            <p class="small-title">
+                LITTLE MOMENTS
+            </p>
+
+            <h1>
+                Memories With You ❤️
+            </h1>
+
+            <div class="photo-grid">
+
+                <div>
+                    <img src="assets/photo02.jpg" alt="">
+                </div>
+
+                <div>
+                    <img src="assets/photo03.jpg" alt="">
+                </div>
+
+                <div>
+                    <img src="assets/photo04.jpg" alt="">
+                </div>
+
+                <div>
+                    <img src="assets/photo05.jpg" alt="">
+                </div>
+
+            </div>
+
+            <button
+                class="main-btn"
+                id="next7"
+            >
+                More Memories →
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         SCREEN 8
+    ========================== -->
+
+    <section class="screen photo-screen" id="screen8">
+
+        <div class="photo-content">
+
+            <p class="small-title">
+                MY FAVOURITE
+            </p>
+
+            <h1>
+                You & Me 💗
+            </h1>
+
+            <div class="photo-grid">
+
+                <div>
+                    <img src="assets/photo06.jpg" alt="">
+                </div>
+
+                <div>
+                    <img src="assets/photo07.jpg" alt="">
+                </div>
+
+                <div>
+                    <img src="assets/photo08.jpg" alt="">
+                </div>
+
+                <div>
+                    <img src="assets/photo09.jpg" alt="">
+                </div>
+
+            </div>
+
+            <button
+                class="main-btn"
+                id="next8"
+            >
+                Keep Going ✨
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         SCREEN 9
+    ========================== -->
+
+    <section class="screen photo-screen" id="screen9">
+
+        <div class="photo-content">
+
+            <p class="small-title">
+                EVERY PICTURE
+            </p>
+
+            <h1>
+                Has A Story 💕
+            </h1>
+
+            <div class="photo-grid">
+
+                <div>
+                    <img src="assets/photo10.jpg" alt="">
+                </div>
+
+                <div>
+                    <img src="assets/photo11.jpg" alt="">
+                </div>
+
+                <div>
+                    <img src="assets/photo12.jpg" alt="">
+                </div>
+
+                <div>
+                    <img src="assets/photo13.jpg" alt="">
+                </div>
+
+            </div>
+
+            <button
+                class="main-btn"
+                id="next9"
+            >
+                Continue ❤️
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         SCREEN 10
+    ========================== -->
+
+    <section class="screen photo-screen" id="screen10">
+
+        <div class="photo-content">
+
+            <p class="small-title">
+                THE SILLY SIDE 😂
+            </p>
+
+            <h1>
+                Our Crazy Moments
+            </h1>
+
+            <div class="photo-grid">
+
+                <div>
+                    <img src="assets/photo14.jpg" alt="">
+                </div>
+
+                <div>
+                    <img src="assets/photo15.jpg" alt="">
+                </div>
+
+                <div>
+                    <img src="assets/photo16.jpg" alt="">
+                </div>
+
+                <div>
+                    <img src="assets/photo17.jpg" alt="">
+                </div>
+
+            </div>
+
+            <button
+                class="main-btn"
+                id="next10"
+            >
+                One More Memory ❤️
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         SCREEN 11
+    ========================== -->
+
+    <section class="screen photo-screen" id="screen11">
+
+        <div class="photo-content">
+
+            <p class="small-title">
+                NO MATTER THE DISTANCE 🌙
+            </p>
+
+            <h1>
+                Still Us ❤️
+            </h1>
+
+            <div class="photo-grid">
+
+                <div>
+                    <img src="assets/photo18.jpg" alt="">
+                </div>
+
+                <div>
+                    <img src="assets/photo19.jpg" alt="">
+                </div>
+
+                <div>
+                    <img src="assets/photo20.jpg" alt="">
+                </div>
+
+                <div>
+                    <img src="assets/photo21.jpg" alt="">
+                </div>
+
+            </div>
+
+            <button
+                class="main-btn"
+                id="next11"
+            >
+                Continue 💌
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         SCREEN 12
+    ========================== -->
+
+    <section class="screen" id="screen12">
+
+        <div class="letter">
+
+            <video
+                class="teddy teddy-small"
+                autoplay
+                muted
+                loop
+                playsinline
+            >
+                <source
+                    src="assets/teddy05.mp4"
+                    type="video/mp4"
+                >
+            </video>
+
+            <h1>
+                A Little Letter For You 💌
+            </h1>
+
+            <div class="letter-paper">
+
+                <p>
+                    Happy Birthday, Rasamalai! 🍮❤️
+                </p>
+
+                <p>
+                    I don't know exactly when our
+                    simple conversations became
+                    such important memories.
+                </p>
+
+                <p>
+                    Somewhere between the silly talks,
+                    random conversations and little
+                    moments, you became a very special
+                    part of my life.
+                </p>
+
+                <p>
+                    Even when distance is between us,
+                    the memories we make still bring
+                    us closer.
+                </p>
+
+                <p>
+                    I hope this little surprise makes
+                    you smile today.
+                </p>
+
+                <p>
+                    Happy Birthday, Rasamalai. ❤️
+                </p>
+
+                <p class="signature">
+                    — Your Angry Bird 🐦❤️
+                </p>
+
+            </div>
+
+            <button
+                class="main-btn"
+                id="next12"
+            >
+                There's More ✨
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         SCREEN 13
+    ========================== -->
+
+    <section class="screen" id="screen13">
+
+        <div class="gift">
+
+            <video
+                class="teddy"
+                autoplay
+                muted
+                loop
+                playsinline
+            >
+                <source
+                    src="assets/teddy06.mp4"
+                    type="video/mp4"
+                >
+            </video>
+
+            <h1>
+                One More Thing... 🎁
+            </h1>
+
+            <p>
+                I made this little surprise
+                especially for you.
+            </p>
+
+            <div
+                id="giftBox"
+                class="gift-box"
+            >
+                🎁
+            </div>
+
+            <button
+                class="main-btn"
+                id="giftBtn"
+            >
+                Open It 💝
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         SCREEN 14
+    ========================== -->
+
+    <section class="screen" id="screen14">
+
+        <div class="wish">
+
+            <div class="cake">
+                🎂
+            </div>
+
+            <h1>
+                Make A Wish, Rasamalai ✨
+            </h1>
+
+            <p>
+                Close your eyes...
+                <br>
+                make your birthday wish.
+            </p>
+
+            <button
+                class="main-btn"
+                id="wishBtn"
+            >
+                I Made My Wish ❤️
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         SCREEN 15
+    ========================== -->
+
+    <section class="screen" id="screen15">
+
+        <div id="confetti"></div>
+
+        <div class="final">
+
+            <video
+                class="teddy"
+                autoplay
+                muted
+                loop
+                playsinline
+            >
+                <source
+                    src="assets/teddy07.mp4"
+                    type="video/mp4"
+                >
+            </video>
+
+            <p class="small-title">
+                ONE LAST THING...
+            </p>
+
+            <h1>
+                Happy Birthday
+            </h1>
+
+            <h2>
+                Rasamalai 🍮❤️
+            </h2>
+
+            <div class="sparkles">
+                ✨ 💗 ✨ 💗 ✨
+            </div>
+
+            <p>
+                No matter how many kilometres
+                are between us,
+                <br>
+                you'll always have a special
+                place in my heart.
+            </p>
+
+            <strong>
+                From your Angry Bird 🐦❤️
+            </strong>
+
+            <button
+                class="restart"
+                id="restartBtn"
+            >
+                Experience Again 🔄
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
